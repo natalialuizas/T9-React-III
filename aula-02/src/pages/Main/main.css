@@ -1,0 +1,43 @@
+.biography-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.biography-list article{
+    background-color: #fff;
+    border: 2xp solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+
+.biography-description {
+    font-size: 16px;
+    color: #928A92;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+
+.read-more{
+    border: 2px solid #153B8E;
+    border-radius: 4px;
+    height: 40px;
+    color: #153B8E;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.read-more:hover{
+    background: #153B8E ;
+    color: #fff;
+    text-decoration: none;
+}
