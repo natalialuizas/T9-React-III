@@ -41,3 +41,36 @@
     color: #fff;
     text-decoration: none;
 }
+
+.biography-list .actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.biography-list .actions button{
+    background: #153B8E ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.biography-list .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+
+
+
+
+.biography-list .actions button:hover{
+    background: #fff ;
+    color: #153B8E;
+    border: 2px solid #153B8E;
+}
